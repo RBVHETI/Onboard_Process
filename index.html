@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--Font Raleway-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <link rel="stylesheet" href="css/app.css">
+    <title>RBVH/ETI Onboard</title>
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar fixed-top navbar-dark navbar-expand-lg bg-dark" id="navbar-example2">
+        <a class="navbar-brand" href="#"><img src="image/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0 nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-l">Onboard</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#vpn">VPN</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="container-fluid">
+
+        <div class="row header-robot" id="home">
+            <img src="image/rocket.png" alt="" class="green-robot" width="20%" data-aos="fade-up">
+
+            <div class="row r-h-m">
+                <div class="col-md-12 col-12 text-header" data-aos="fade-up">
+                    <h1 class="text-title">Welcome <span id="yourname">Newbie</span> to RBVH/ETI Department</h1>
+                    <p class="text-sub" style="color: grey;">A warm welcome and lots of good wishes on becoming part of our growing team. 
+                        Congratulations and on behalf of all the members. 
+                        We are all happy and excited about your inputs and contribution to our company.
+                    </p>   
+                </div>   
+            </div>
+        </div>
+
+        <div class="row body-1 justify-content-center" id="about-l">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-12 col-12 content-body-1" data-aos="fade-up">
+                    <p style="color: #3c3c3c; font-weight: bold;" id="about-text">ONBOARD PROCESS</p>
+                    <h1 class="text-title-body" style="color: black;">Join us follow 4 steps</h1>
+                    <svg height="3" width="74">
+                        <line x1="0" y1="0" x2="74" y2="0" style="stroke: #ea4753; stroke-width:3" />
+                    </svg>
+                </div>
+
+                <div class="col-md-2 process-box" data-aos="fade-up">
+                    <p class="number-step">01</p>
+                    <svg height="3" width="200">
+                        <line x1="0" y1="0" x2="200" y2="0" style="stroke: #2cb9fa; stroke-width:3" />
+                    </svg>
+                    <h1 class="text-process" style="color: #2cb9fa;">Temperature Check</h1>
+                    <img src="image/checktemp.png" alt="">
+                    <p class="local"><i class="fa fa-map-marker" aria-hidden="true" style="color: red;"></i> 
+                        G_Floor, Etown 1
+                    </p>
+                </div>
+                <div class="col-md-2 process-box" data-aos="fade-up">
+                    <p class="number-step" style="color: #52bd48;">02</p>
+                    <svg height="3" width="200">
+                        <line x1="0" y1="0" x2="200" y2="0" style="stroke: #52bd48; stroke-width:3" />
+                    </svg>
+                    <h1 class="text-process" style="color: #52bd48;">Access Right</h1>
+                    <p style="color: rgb(175, 175, 175); padding-bottom: 10px;">Provide Declaration Form, take Temporary Cards, Packing Form and Accessories</p>
+                    <img src="image/access.png" alt="">
+                    <p class="local"><i class="fa fa-map-marker" aria-hidden="true" style="color: red;"></i> 
+                        Reception, GF, E1
+                    </p>
+                </div>
+                <div class="col-md-2 process-box" data-aos="fade-up">
+                    <p class="number-step" style="color: #d21cff;">03</p>
+                    <svg height="3" width="200">
+                        <line x1="0" y1="0" x2="200" y2="0" style="stroke: #d21cff; stroke-width:3" />
+                    </svg>
+                    <h1 class="text-process" style="color: #d21cff;">Submit Document</h1>
+                    <img src="image/copy.png" alt="">
+                    <p class="local" style="padding-bottom: 10px;"><i class="fa fa-map-marker" aria-hidden="true" style="color: red;"></i> 
+                        Etown 1, Unit 1.3
+                    </p>
+                    <button type="button" class="read-more" onclick="openifo()">Time Detail</button>
+                </div>
+                <div class="col-md-2 process-box" data-aos="fade-up">
+                    <p class="number-step" style="color: #fab92c;">04</p>
+                    <svg height="3" width="200">
+                        <line x1="0" y1="0" x2="200" y2="0" style="stroke: #fab92c; stroke-width:3" />
+                    </svg>
+                    <h1 class="text-process" style="color: #fab92c;">Device</h1>
+                    <p style="color: rgb(175, 175, 175); padding-bottom: 10px;">Get your laptop from CI</p>
+                    <img src="image/notebook-computer.png" alt="">
+                    <p class="local" style="padding-bottom: 10px;"> <i class="fa fa-map-marker" aria-hidden="true" style="color: red;"></i> 
+                        CI Room, E1, Unit 1.9
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row QnA justify-content-center" id="qa-l">
+            <img src="image/location.png" alt="" width="20%" height="auto" class="img-footer">
+            <div class="col-md-6 left-QnA" id="accordion" data-aos="fade-up">
+                <h1 class="qna-title">HR & CI Location</h1>
+
+                <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo1">Where can you submit document and get your laptop?</button>
+                <div id="demo1" class="collapse text-sub-desc"  data-parent="#accordion">
+                    <img src="image/Picture1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center" id="vpn">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-12 col-12 content-body-1" data-aos="fade-up">
+                    <p style="color: #3c3c3c; font-weight: bold;" id="about-text">VPN PROCESS</p>
+                    <h1 class="text-title-body" style="color: black;">How to raise VPN</h1>
+                    <svg height="3" width="74">
+                        <line x1="0" y1="0" x2="74" y2="0" style="stroke: #ea4753; stroke-width:3" />
+                    </svg>
+                    <h3 style="color: red; font-weight: 600; padding: 10px 0;">RAISE TICKET AT OFFICE NOT AT YOUR HOME</h3>
+                    <p style="color: #3c3c3cb9; padding: 20px 0;">VPN helps you can connect securely to the Bosch network everywhere & work as you were in the office</p>
+                    <img id="myImg" src="image/Picture2.png" alt="vpn" style="width:100%;max-width:300px">
+                </div>
+            </div>
+        </div>
+        <div id="myModal" class="modal">
+            <span class="close1">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+    
+        <div class="detail-story">
+            <div class="glass-board">
+                <div class="text-board">
+                    <span class="close-board" onclick="closeVideo()">&times;</span>
+                    <h1 class="title-board">Welcome to Bosch Company</h1>
+                    <p class="sub-board">🚀 Submit document and receive your Laptop/PC in your time as the table below:</p>
+                    <img src="image/timetable.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>   
+        AOS.init();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImg");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close1")[0];
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+    </script>
+</body>
+</html>
