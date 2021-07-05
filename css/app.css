@@ -360,7 +360,7 @@ table {
     width: 100%;
     height: fit-content;
     padding-top: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 .img-footer{
     position: absolute;
@@ -622,7 +622,10 @@ table {
     text-decoration: none;
     cursor: pointer;
   }
-  
+  .timeline{
+    width: 100%;
+    max-width: 550px;
+}
 @media screen and (max-width: 414px){
     .process-box{
         margin: 15px 0;
@@ -850,6 +853,10 @@ table {
     }
     .modal-content {
         width: 100%;
+      }
+      .timeline{
+          width: 100%;
+          max-width: 350px;
       }
 
 }
